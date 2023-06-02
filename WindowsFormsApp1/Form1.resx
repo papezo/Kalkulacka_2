@@ -1,0 +1,1422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;button_minus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_faktorial.Text" xml:space="preserve">
+    <value>!</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button_odmocnina.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="button_stupne.Text" xml:space="preserve">
+    <value>°</value>
+  </data>
+  <data name="&gt;&gt;button_sedmicka.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="button_sin.Text" xml:space="preserve">
+    <value> sin</value>
+  </data>
+  <data name="&gt;&gt;button_pi.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_vysledek.Name" xml:space="preserve">
+    <value>textBox_vysledek</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button_odmocnina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 395</value>
+  </data>
+  <data name="button_petka.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="button_vymazani.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="button_mocnina.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="button_obnoveniPamet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>698, 253</value>
+  </data>
+  <data name="&gt;&gt;button_stupne.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;button_pi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_cos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 65</value>
+  </data>
+  <data name="button_dvojka.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 466</value>
+  </data>
+  <data name="button_osmicka.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;button_shift.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;button_cotg.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_vymazaniPamet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 65</value>
+  </data>
+  <data name="&gt;&gt;button_nasobeni.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button_3Odmocnina.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_vymazani.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 65</value>
+  </data>
+  <data name="button_3Odmocnina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 65</value>
+  </data>
+  <data name="button_sedmicka.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 133</value>
+  </data>
+  <data name="&gt;&gt;button_3Odmocnina.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_sedmicka.Name" xml:space="preserve">
+    <value>button_sedmicka</value>
+  </data>
+  <data name="button_vysledek.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;button_odmocnina.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button_ctyrka.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="button_stupne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 528</value>
+  </data>
+  <data name="&gt;&gt;button_osmicka.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="button_ctyrka.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 133</value>
+  </data>
+  <data name="button_nasobeni.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="&gt;&gt;button_nasobeni.Name" xml:space="preserve">
+    <value>button_nasobeni</value>
+  </data>
+  <data name="převodMeziSoustavamiToolStripMenuItem.Text" xml:space="preserve">
+    <value>Převod mezi soustavami</value>
+  </data>
+  <data name="button_scitani.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="matematickáToolStripMenuItem.Text" xml:space="preserve">
+    <value>Matematická</value>
+  </data>
+  <data name="&gt;&gt;button_obnoveniPamet.Name" xml:space="preserve">
+    <value>button_obnoveniPamet</value>
+  </data>
+  <data name="tmavýToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 44</value>
+  </data>
+  <data name="světlýToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 44</value>
+  </data>
+  <data name="button_deleni.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;button_cos.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="button_sestka.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="button_vysledek.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button_nasobeni.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="button_odecitani.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="button_pi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 466</value>
+  </data>
+  <data name="button_ctyrka.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="button_procenta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 133</value>
+  </data>
+  <data name="button_stupne.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="button_nula.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="button_log.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="button_carka.Text" xml:space="preserve">
+    <value> ,</value>
+  </data>
+  <data name="button_odebraniPamet.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="button_nasobeni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 133</value>
+  </data>
+  <data name="&gt;&gt;button_sin.Name" xml:space="preserve">
+    <value>button_sin</value>
+  </data>
+  <data name="&gt;&gt;button_trojka.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_minus.Text" xml:space="preserve">
+    <value>±</value>
+  </data>
+  <data name="&gt;&gt;button_odecitani.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_cos.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;button_stupne.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_faktorial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_nasobeni.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button_devitka.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_cos.Name" xml:space="preserve">
+    <value>button_cos</value>
+  </data>
+  <data name="&gt;&gt;button_stupne.Name" xml:space="preserve">
+    <value>button_stupne</value>
+  </data>
+  <data name="&gt;&gt;button_pí.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_sestka.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 133</value>
+  </data>
+  <data name="&gt;&gt;button_vysledek.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_nula.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_stupne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;button_odebraniPamet.Name" xml:space="preserve">
+    <value>button_odebraniPamet</value>
+  </data>
+  <data name="&gt;&gt;typKalkulačkyToolStripMenuItem.Name" xml:space="preserve">
+    <value>typKalkulačkyToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;button_mocnina.Name" xml:space="preserve">
+    <value>button_mocnina</value>
+  </data>
+  <data name="&gt;&gt;button_shift.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_vysledek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 133</value>
+  </data>
+  <data name="&gt;&gt;button_sedmicka.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_shift.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button_sedmicka.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_mocnina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 395</value>
+  </data>
+  <data name="&gt;&gt;button_procenta.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="button_odebraniPamet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>922, 1046</value>
+  </data>
+  <data name="&gt;&gt;button_shift.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_tg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="button_tg.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;button_vymazani.Name" xml:space="preserve">
+    <value>button_vymazani</value>
+  </data>
+  <data name="button_stupne.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;světlýToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_trojka.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="button_procenta.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="button_trojka.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="button_cotg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="button_scitani.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="button_obnoveniPamet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 65</value>
+  </data>
+  <data name="button_ctyrka.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;button_vysledek.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;matematickáToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tmavýToolStripMenuItem1.Name" xml:space="preserve">
+    <value>tmavýToolStripMenuItem1</value>
+  </data>
+  <data name="button_deleni.Location" type="System.Drawing.Point, System.Drawing">
+    <value>697, 744</value>
+  </data>
+  <data name="textBox_vysledek.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 65</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Kalkulačka</value>
+  </data>
+  <data name="textBox_vysledek.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBox_vysledek.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;výpočetPodsíťíToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_jednicka.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_scitani.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="matematickáToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>405, 44</value>
+  </data>
+  <data name="button_odmocnina.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="button_scitani.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 133</value>
+  </data>
+  <data name="button_minus.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;button_vymazani.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_devitka.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;button_pridaniPamet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_carka.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 883</value>
+  </data>
+  <data name="&gt;&gt;button_jednicka.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;button_odebraniPamet.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;button_obnoveniPamet.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;button_mocnina.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="typKalkulačkyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 36</value>
+  </data>
+  <data name="&gt;&gt;button_sin.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="button_log.Text" xml:space="preserve">
+    <value> log</value>
+  </data>
+  <data name="button_sedmicka.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;matematickáToolStripMenuItem.Name" xml:space="preserve">
+    <value>matematickáToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;motivToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_cotg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 65</value>
+  </data>
+  <data name="button_scitani.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 744</value>
+  </data>
+  <data name="tmavýToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Tmavý</value>
+  </data>
+  <data name="&gt;&gt;button_minus.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button_dvojka.Name" xml:space="preserve">
+    <value>button_dvojka</value>
+  </data>
+  <data name="&gt;&gt;button_procenta.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_obnoveniPamet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="button_sestka.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 605</value>
+  </data>
+  <data name="&gt;&gt;button_petka.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_odmocnina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 65</value>
+  </data>
+  <data name="&gt;&gt;button_faktorial.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;button_carka.Name" xml:space="preserve">
+    <value>button_carka</value>
+  </data>
+  <data name="&gt;&gt;button_log.Name" xml:space="preserve">
+    <value>button_log</value>
+  </data>
+  <data name="&gt;&gt;button_obnoveniPamet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_carka.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;button_carka.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_sin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button_vymazani.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;výpočetPodsíťíToolStripMenuItem.Name" xml:space="preserve">
+    <value>výpočetPodsíťíToolStripMenuItem</value>
+  </data>
+  <data name="button_faktorial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 56</value>
+  </data>
+  <data name="&gt;&gt;button_log.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="button_devitka.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 744</value>
+  </data>
+  <data name="button_sin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 65</value>
+  </data>
+  <data name="&gt;&gt;button_procenta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_sin.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="button_shift.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 65</value>
+  </data>
+  <data name="button_obnoveniPamet.Text" xml:space="preserve">
+    <value>MR</value>
+  </data>
+  <data name="button_nula.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 133</value>
+  </data>
+  <data name="button_carka.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button_petka.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="button_vymazaniPamet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 253</value>
+  </data>
+  <data name="&gt;&gt;tmavýToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_sedmicka.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="button_procenta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 883</value>
+  </data>
+  <data name="button_jednicka.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button_minus.Name" xml:space="preserve">
+    <value>button_minus</value>
+  </data>
+  <data name="button_trojka.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="button_mocnina.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="button_pridaniPamet.Text" xml:space="preserve">
+    <value>M+</value>
+  </data>
+  <data name="&gt;&gt;nastaveníToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="motivToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 44</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="button_cos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 324</value>
+  </data>
+  <data name="button_petka.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button_3Odmocnina.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_dvojka.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;button_osmicka.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_3Odmocnina.Name" xml:space="preserve">
+    <value>button_3Odmocnina</value>
+  </data>
+  <data name="motivToolStripMenuItem.Text" xml:space="preserve">
+    <value>Motiv</value>
+  </data>
+  <data name="button_pridaniPamet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 65</value>
+  </data>
+  <data name="&gt;&gt;button_pí.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_shift.Name" xml:space="preserve">
+    <value>button_shift</value>
+  </data>
+  <data name="button_cotg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 324</value>
+  </data>
+  <data name="button_deleni.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="&gt;&gt;button_vymazaniPamet.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;button_cotg.Name" xml:space="preserve">
+    <value>button_cotg</value>
+  </data>
+  <data name="button_jednicka.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 133</value>
+  </data>
+  <data name="&gt;&gt;button_minus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_deleni.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_odmocnina.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_log.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 65</value>
+  </data>
+  <data name="button_devitka.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button_scitani.Name" xml:space="preserve">
+    <value>button_scitani</value>
+  </data>
+  <data name="&gt;&gt;button_carka.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_osmicka.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="button_shift.Text" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="button_devitka.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 133</value>
+  </data>
+  <data name="button_trojka.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 133</value>
+  </data>
+  <data name="&gt;&gt;button_tg.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="button_pi.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="button_ctyrka.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="nastaveníToolStripMenuItem.Text" xml:space="preserve">
+    <value>Nastavení</value>
+  </data>
+  <data name="&gt;&gt;button_odebraniPamet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_petka.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;button_scitani.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="button_minus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.875pt</value>
+  </data>
+  <data name="button_vymazani.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 253</value>
+  </data>
+  <data name="button_shift.Location" type="System.Drawing.Point, System.Drawing">
+    <value>697, 324</value>
+  </data>
+  <data name="button_cotg.Text" xml:space="preserve">
+    <value>cotg</value>
+  </data>
+  <data name="button_minus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>697, 466</value>
+  </data>
+  <data name="button_osmicka.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 133</value>
+  </data>
+  <data name="&gt;&gt;button_nula.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;motivToolStripMenuItem.Name" xml:space="preserve">
+    <value>motivToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;button_devitka.Name" xml:space="preserve">
+    <value>button_devitka</value>
+  </data>
+  <data name="&gt;&gt;button_dvojka.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_dvojka.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_ctyrka.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_log.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;button_log.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;typKalkulačkyToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_nasobeni.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 605</value>
+  </data>
+  <data name="&gt;&gt;button_vymazaniPamet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_devitka.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="výpočetPodsíťíToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>405, 44</value>
+  </data>
+  <data name="&gt;&gt;button_trojka.Name" xml:space="preserve">
+    <value>button_trojka</value>
+  </data>
+  <data name="button_mocnina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 65</value>
+  </data>
+  <data name="&gt;&gt;button_osmicka.Name" xml:space="preserve">
+    <value>button_osmicka</value>
+  </data>
+  <data name="button_obnoveniPamet.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="button_jednicka.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 466</value>
+  </data>
+  <data name="button_pí.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_nula.Name" xml:space="preserve">
+    <value>button_nula</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button_osmicka.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_dvojka.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 4</value>
+  </data>
+  <data name="button_tg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 65</value>
+  </data>
+  <data name="&gt;&gt;button_procenta.Name" xml:space="preserve">
+    <value>button_procenta</value>
+  </data>
+  <data name="button_odebraniPamet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 65</value>
+  </data>
+  <data name="&gt;&gt;button_pridaniPamet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nastaveníToolStripMenuItem.Name" xml:space="preserve">
+    <value>nastaveníToolStripMenuItem</value>
+  </data>
+  <data name="button_odecitani.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 133</value>
+  </data>
+  <data name="převodMeziSoustavamiToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>405, 44</value>
+  </data>
+  <data name="button_sin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 324</value>
+  </data>
+  <data name="&gt;&gt;button_cos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_pi.Name" xml:space="preserve">
+    <value>button_pi</value>
+  </data>
+  <data name="button_sedmicka.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 744</value>
+  </data>
+  <data name="&gt;&gt;button_odecitani.Name" xml:space="preserve">
+    <value>button_odecitani</value>
+  </data>
+  <data name="button_dvojka.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="button_stupne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 71</value>
+  </data>
+  <data name="&gt;&gt;button_vymazaniPamet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_nula.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_3Odmocnina.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="button_pridaniPamet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        STee/h8Zzsx0U8PB/gAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;button_deleni.Name" xml:space="preserve">
+    <value>button_deleni</value>
+  </data>
+  <data name="&gt;&gt;button_cotg.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>922, 40</value>
+  </data>
+  <data name="nastaveníToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 36</value>
+  </data>
+  <data name="button_scitani.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="button_jednicka.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button_odebraniPamet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 253</value>
+  </data>
+  <data name="button_mocnina.Text" xml:space="preserve">
+    <value> x^2</value>
+  </data>
+  <data name="&gt;&gt;button_jednicka.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="světlýToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Světlý</value>
+  </data>
+  <data name="&gt;&gt;button_log.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;převodMeziSoustavamiToolStripMenuItem.Name" xml:space="preserve">
+    <value>převodMeziSoustavamiToolStripMenuItem</value>
+  </data>
+  <data name="button_3Odmocnina.Text" xml:space="preserve">
+    <value> 3√</value>
+  </data>
+  <data name="&gt;&gt;button_obnoveniPamet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_devitka.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="button_odecitani.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;textBox_vysledek.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_petka.Name" xml:space="preserve">
+    <value>button_petka</value>
+  </data>
+  <data name="button_odebraniPamet.Text" xml:space="preserve">
+    <value>M-</value>
+  </data>
+  <data name="button_pridaniPamet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 253</value>
+  </data>
+  <data name="&gt;&gt;button_ctyrka.Name" xml:space="preserve">
+    <value>button_ctyrka</value>
+  </data>
+  <data name="&gt;&gt;button_odmocnina.Name" xml:space="preserve">
+    <value>button_odmocnina</value>
+  </data>
+  <data name="&gt;&gt;button_sestka.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_scitani.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_tg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_pí.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 65</value>
+  </data>
+  <data name="button_shift.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="button_osmicka.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 744</value>
+  </data>
+  <data name="výpočetPodsíťíToolStripMenuItem.Text" xml:space="preserve">
+    <value>Výpočet podsítě</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBox_vysledek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>900, 128</value>
+  </data>
+  <data name="&gt;&gt;button_stupne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_trojka.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="button_vymazaniPamet.Text" xml:space="preserve">
+    <value>MC</value>
+  </data>
+  <data name="&gt;&gt;button_pridaniPamet.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;button_mocnina.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_pí.Text" xml:space="preserve">
+    <value> π</value>
+  </data>
+  <data name="button_cotg.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;button_cos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_nula.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 883</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Kalkulačka</value>
+  </data>
+  <data name="button_cos.Text" xml:space="preserve">
+    <value>cos</value>
+  </data>
+  <data name="&gt;&gt;button_pí.Name" xml:space="preserve">
+    <value>button_pí</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="button_odmocnina.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button_petka.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 605</value>
+  </data>
+  <data name="&gt;&gt;button_odmocnina.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_carka.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_vysledek.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="&gt;&gt;button_pi.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button_jednicka.Name" xml:space="preserve">
+    <value>button_jednicka</value>
+  </data>
+  <data name="button_trojka.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 466</value>
+  </data>
+  <data name="button_faktorial.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_odmocnina.Text" xml:space="preserve">
+    <value> √</value>
+  </data>
+  <data name="button_petka.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 133</value>
+  </data>
+  <data name="&gt;&gt;button_trojka.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_pí.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="button_vymazani.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="button_osmicka.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="button_sestka.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button_ctyrka.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;button_deleni.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;button_vymazaniPamet.Name" xml:space="preserve">
+    <value>button_vymazaniPamet</value>
+  </data>
+  <data name="&gt;&gt;button_sin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_petka.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_pridaniPamet.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;převodMeziSoustavamiToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_deleni.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button_odebraniPamet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_faktorial.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="button_cotg.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;button_odecitani.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="button_ctyrka.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 605</value>
+  </data>
+  <data name="&gt;&gt;button_cotg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_log.Location" type="System.Drawing.Point, System.Drawing">
+    <value>698, 395</value>
+  </data>
+  <data name="button_tg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 324</value>
+  </data>
+  <data name="button_dvojka.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button_minus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 133</value>
+  </data>
+  <data name="button_nasobeni.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="button_3Odmocnina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 395</value>
+  </data>
+  <data name="&gt;&gt;button_nasobeni.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_vysledek.Name" xml:space="preserve">
+    <value>button_vysledek</value>
+  </data>
+  <data name="&gt;&gt;button_tg.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="button_vymazaniPamet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button_vysledek.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="button_faktorial.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="button_sestka.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;button_odecitani.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="typKalkulačkyToolStripMenuItem.Text" xml:space="preserve">
+    <value>Typ kalkulačky</value>
+  </data>
+  <data name="button_vysledek.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 883</value>
+  </data>
+  <data name="&gt;&gt;button_deleni.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_sedmicka.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="button_pí.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="button_nula.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="button_jednicka.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_tg.Name" xml:space="preserve">
+    <value>button_tg</value>
+  </data>
+  <data name="&gt;&gt;textBox_vysledek.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;button_vymazani.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_tg.Text" xml:space="preserve">
+    <value>tg</value>
+  </data>
+  <data name="&gt;&gt;button_faktorial.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button_nula.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button_dvojka.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 133</value>
+  </data>
+  <data name="button_3Odmocnina.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="button_odecitani.Location" type="System.Drawing.Point, System.Drawing">
+    <value>697, 605</value>
+  </data>
+  <data name="&gt;&gt;button_pridaniPamet.Name" xml:space="preserve">
+    <value>button_pridaniPamet</value>
+  </data>
+  <data name="&gt;&gt;button_faktorial.Name" xml:space="preserve">
+    <value>button_faktorial</value>
+  </data>
+  <data name="button_3Odmocnina.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;button_mocnina.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_faktorial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 466</value>
+  </data>
+  <data name="button_cos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="button_carka.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 133</value>
+  </data>
+  <data name="button_odecitani.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button_sestka.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="button_pí.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 395</value>
+  </data>
+  <data name="button_procenta.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="button_vymazani.Text" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="&gt;&gt;button_devitka.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBox_vysledek.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 40pt</value>
+  </data>
+  <data name="button_procenta.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;button_sin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 466</value>
+  </data>
+  <data name="button_deleni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 133</value>
+  </data>
+  <data name="button_vymazaniPamet.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;button_sestka.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;světlýToolStripMenuItem1.Name" xml:space="preserve">
+    <value>světlýToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;button_sestka.Name" xml:space="preserve">
+    <value>button_sestka</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>215, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>cs-CZ</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
